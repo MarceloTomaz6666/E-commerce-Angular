@@ -1,0 +1,17 @@
+body {
+    background-image: url("https://i.postimg.cc/WbmqJYd1/Sem-t-tulo-1-pdf.png");
+    background-repeat: no-repeat; /* Não repetir a imagem de fundo */
+    background-size: cover; /* Cobrir toda a área do elemento pai */
+    /* Outras propriedades de estilo, se necessário */
+    object-fit: cover;
+}
+
+.container {
+    padding: 100px;
+    margin-left: 500px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}

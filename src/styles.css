@@ -1,0 +1,209 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.min.css";
+@import "~owl.carousel/dist/assets/owl.carousel.css";
+@import "~owl.carousel/dist/assets/owl.theme.default.css";
+
+
+/* You can add global styles to this file, and also import other style files */
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #bebebe;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.banner-section {
+    margin-top: 20px; /* Adiciona margem superior ao banner */
+    background-color: #f8f9fa; /* Cor de fundo do banner */
+    text-align: center; /* Alinha o conteúdo ao centro */
+    padding: 20px 0; /* Adiciona espaçamento interno ao redor do conteúdo do banner */
+}
+
+.banner-section img {
+    width: 100%; /* Define a largura da imagem como 100% */
+    height: auto; /* Evita distorção da imagem */
+}
+
+.custom-nav {
+    margin-top: 30px;
+    display: flex;
+    /*justify-content: center;  Alinha os itens horizontalmente */
+    align-items: center; /* Centraliza verticalmente os itens */
+    margin-left: 150px;
+}
+
+.logo-box {
+    margin-left: 10px; /* Ajusta a margem à esquerda para distanciar o logo-box da borda esquerda */
+    margin-right: 10px; /* Adiciona espaço entre o logo-box e a search-box */
+    width: 20%; /* Define a largura do logo-box */
+}
+
+.search-box {
+        display: flex;
+        align-items: center; /* Centraliza verticalmente os itens da caixa de pesquisa */
+        position: relative;
+        width: 50%; /* Aumenta o tamanho da caixa de pesquisa para ocupar toda a largura disponível */
+}
+.user-box {
+    margin-left: 20px; /* Adiciona espaço entre a caixa de pesquisa e o botão do usuário */
+}
+
+.cart-box {
+    margin-left: 20px; /* Adiciona espaço entre a caixa de pesquisa e o botão do carrinho */
+  
+}
+
+.search-box input[type="text"] {
+    padding: 8px 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    width: 100%;
+}
+
+
+.search-box .search-btn {
+    position: absolute;
+    right: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 8px;
+}
+
+
+.categorias {
+    background-color: #bebebe;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.categorias .categoria {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+
+.search-box .search-btn img {
+    width: 20px; 
+    height: auto;
+}
+
+
+
+.gallery-section {
+    padding: 70px; 
+}
+
+
+.navbar-cart {
+    position: absolute;
+    top: 15px; 
+    right: 20px; 
+    font-size: 24px; 
+}
+
+header h1 {
+    margin: 0;
+    text-align: left;
+}
+
+.product-gallery {
+    display: flex;
+    justify-content: center;
+}
+
+.product {
+    margin: 20px;
+    text-align: center;
+}
+
+.product img {
+    width: 200px; /* Defina um tamanho fixo para a largura */
+    height: 200px; /* Defina um tamanho fixo para a altura */
+    object-fit: contain; /* Redimensiona a imagem para preencher o contêiner, mantendo a proporção e cortando o excesso */
+    border-radius: 8px; /* Adiciona bordas arredondadas */
+}
+
+
+
+.product h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.product .price {
+    font-weight: bold;
+    color: #007bff; 
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.produtos {
+    padding: 20px;
+}
+
+.produtos h2 {
+    margin-top: 0;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.navigation {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.navigation button {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #000;
+    transition: color 0.3s;
+}
+
+.navigation button:hover {
+    color: #007bff;
+}
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}

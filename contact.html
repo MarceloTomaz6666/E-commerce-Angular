@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato de Produtos</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="custom-nav">
+            <div class="logo-box">
+                <a href="homepage.html"><img src="https://i.postimg.cc/tJcNJMwR/Sem-nome-200-x-60-px.png"
+                        alt="Hypeshop Logo"></a>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Pesquisar...">
+                <button class="search-btn"><img src="https://i.postimg.cc/T1tZ0jZ3/icons8-pesquisar-50.png"
+                        alt="Search"></button>
+            </div>
+            <div class="user-box">
+                <a href="login.html" class="navbar-user">
+                    <img src="https://i.postimg.cc/d0XsWRbk/icons8-customer-50.png" alt="Login">
+                </a>
+            </div>
+            <div class="cart-box">
+                <a href="cart.html">
+                    <img src="https://i.postimg.cc/85V3PjWX/icons8-cart-50.png" alt="Carrinho">
+                </a>
+            </div>
+        </nav>
+
+        <nav class="categorias">
+            <a href="homepage.html" class="categoria">| HOME |</a>
+            <a href="catalog.html" class="categoria">| CATÁLOGO |</a>
+            <a href="contact.html" class="categoria">| CONTATE-NOS |</a>
+        </nav>
+    </header>
+
+    <!-- Conteúdo -->
+    <div class="container mt-5">
+        <h1 class="text-center mb-5">Formulário de Contato</h1>
+
+        <!-- Informações de Contato -->
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Informações de Contato</h3>
+                <p><strong>Endereço:</strong> Rua Exemplo, 123 - Cidade, Estado</p>
+                <p><strong>Telefone:</strong> (00) 1234-5678</p>
+                <p><strong>Email:</strong> contato@minhaloja.com</p>
+            </div>
+
+            <!-- Formulário de Contato -->
+            <div class="col-md-6">
+                <h3>Entre em Contato</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Seu email">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea class="form-control" id="mensagem" rows="4" placeholder="Sua mensagem"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-light" style="margin-top: 50px;">
+        <div class="container-fluid py-3">
+            <div class="row">
+                <div class="col-4">
+                    <ul class="nav flex-column">
+                        <li class="nav-link"><a href="#">Retornar à Loja</a></li>
+                        <li class="nav-link"><a href="#">Sobre</a></li>
+                        <li class="nav-link"><a href="#">Contato</a></li>
+                        <li class="nav-link"><a href="#">Suporte</a></li>
+                    </ul>
+                </div>
+                <div class="col-8">
+
+                    <h3 class="text-center">
+                        Loja online Hypeshop: moda, eletrônicos e muito mais. Sua melhor escolha para compras online!
+                    </h3>
+
+                    <ul class="nav">
+                        <li class="nav-link"><i class="fab fa-facebook fa-3x "></i></li>
+                        <li class="nav-link"><i class="fab fa-instagram fa-3x"></i></li>
+                        <li class="nav-link"><i class="fab fa-twitter fa-3x"></i></li>
+                        <li class="nav-link"><i class="fab fa-whatsapp fa-3x"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="text-center" style="background-color: #333; padding: 20px;">
+            Hypeshop 2024 Copyright: <a href="#">Lojas Virtuais</a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript e jQuery (opcional, para funcionalidades avançadas) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

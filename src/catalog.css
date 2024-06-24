@@ -1,0 +1,21 @@
+/* Estilo para a barra de navegação */
+.navbar {
+    border-bottom: 2px solid #333;
+  }
+  
+  /* Estilo para o título da página */
+  h1 {
+    color: #333;
+  }
+  
+  /* Estilo para os botões dos produtos */
+  .btn-primary {
+    background-color: #333;
+    border-color: #333;
+  }
+  
+  .btn-primary:hover {
+    background-color: #555;
+    border-color: #555;
+  }
+  
